@@ -1,6 +1,6 @@
 Ce dépôt contient les simulations numériques réalisées dans le cadre du projet bibliographique, non associé à un stage de recherche, du M1 Physique Fondamentale.
 
-Il vise à illustrer mathématiquement et visuellement certains concepts clés de la Cosmologie Cyclique Conforme (CCC) de Sir Roger Penrose.
+Comme son nom l'indique, il vise à illustrer mathématiquement et visuellement certains concepts clés de la Cosmologie Cyclique Conforme (CCC) de Sir Roger Penrose.
 
 ## Contenu du dépôt :
 
