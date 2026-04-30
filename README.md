@@ -8,9 +8,9 @@ Tous les graphes statiques générés par ces codes sont bien dans le document p
 
 *   **Simulateur Interactif montrant les Hawking spots et les twisteurs (Simulateur CCC.py) :** Le code permet de faire varier la masse d'un amas galactique de l'éon précédent, $M_{gc}$, et le facteur conforme, $\omega$. Le script simule, en temps réel, la réduction twistorielle de la divergence du tenseur de Weyl, qui n'est autre que le passage d'une dépendance en $1/r^3$ à $1/r^2$ et génère l'anomalie de température correspondante, qui n'est autre que le Hawking Spot, sur un fond diffus cosmologique (CMB) simulé.
 *   **Générateur Hawking Spot ("Hawking Spot.py") (Figure ??? du pdf) :** Ajoute un Hawking spot classique sur un CMB simulé 
-*   **Diagramme de Carter-Penrose (Diagramme de Carter-Penrose.py) :** Script qui génère la compactification conforme de l'espace-temps de Minkowski.
+*   **Diagramme de Carter-Penrose (Diagramme de Carter-Penrose.py) (Figure ??? du pdf):** Script qui génère la compactification conforme de l'espace-temps de Minkowski.
 *   **Paradoxe de l'Entropie (entropie fleche.py) :** Modélisation visuelle de l'Hypothèse de Courbure de Weyl (WCH).
-*   **La divergence twistorielle ("Visualisation de l'invariance conforme.py") ()**
+*   **La divergence twistorielle ("Visualisation de l'invariance conforme.py") (Figure ??? du pdf)**
 
 ## Bibliothèques à utiliser localement : 
 
