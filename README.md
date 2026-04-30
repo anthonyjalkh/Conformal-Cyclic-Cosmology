@@ -11,7 +11,7 @@ Tous les graphes statiques générés par ces codes sont bien dans le document p
 *   **La divergence twistorielle ("divergence.py") (Figure ??? du pdf) :** Script qui génère une image statique de la réduction de la dépendance spatiale de $1/r^3$ à $1/r^2$ grâce à l'opérateur de Killing.
 *   **Diagramme de Carter-Penrose (Diagramme de Carter-Penrose.py) (Figure ??? du pdf) :** Script qui génère, sous forme statique, la compactification conforme de l'espace-temps de Minkowski.
 *   **Paradoxe de l'Entropie (entropie fleche.py) (Figure ??? du pdf) :** Modélisation visuelle et statique de l'Hypothèse de Courbure de Weyl (WCH).
-*   **La divergence twistorielle ("Visualisation de l'invariance conforme.py") (Figure ??? du pdf) :** Code qui génère une visualisation statique mettant en évidence la conservation des angles locaux lors de l'expansion de l'échelle spatiale. 
+*   **L'invariance conforme ("Visualisation de l'invariance conforme.py") (Figure ??? du pdf) :** Code qui génère une visualisation statique mettant en évidence la conservation des angles locaux lors de l'expansion de l'échelle spatiale. 
 
 ## Bibliothèques à utiliser localement : 
 
@@ -22,5 +22,7 @@ Pour exécuter les scripts Python en local, les bibliothèques suivantes sont n�
 
 ## Auteur
 **Anthony JALKH**
+
 *Étudiant en Master 1 Physique Fondamentale*
+
 *Université Paris-Saclay*
