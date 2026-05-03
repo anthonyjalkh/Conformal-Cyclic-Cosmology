@@ -22,7 +22,7 @@ omega_init = 1.0
 
 def calculer_spot(M_log, omega):
     """Calcule l'intensité de l'onde sur le CMB en fonction de la masse et du facteur conforme"""
-    # L'amplitude dépend de la masse (normalisée autour de 10^15)
+    # L'amplitude dépend de la masse qui, elle, est normalisée autour de 10^15
     amplitude = (10 ** (M_log - 15)) * omega
     frequence = 0.8
     amortissement = 0.3
@@ -38,7 +38,7 @@ cbar = fig.colorbar(img, ax=ax_cmb)
 cbar.set_label(r'Fluctuations $\Delta T / T$')
 
 
-# Graphique du Bas (Divergence Twistorielle)
+# Graphique du bas et qui montre la divergence twistorielle)
 def calculer_divergence(M_log):
     """Calcule les courbes de divergence 1/r^3 et 1/r^2"""
     echelle = 10 ** (M_log - 15)
@@ -84,12 +84,8 @@ def update(val):
     c_w, c_t = calculer_divergence(M_actuelle)
     ligne_weyl.set_ydata(c_w)
     ligne_twist.set_ydata(c_t)
-
-    # Redessiner la fenêtre
     fig.canvas.draw_idle()
 
-
-# Connecter les curseurs à la fonction de mise à jour
 slider_M.on_changed(update)
 slider_omega.on_changed(update)
 
